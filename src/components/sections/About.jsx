@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Download, Code2, Sparkles } from 'lucide-react';
-import { SiReact, SiNextdotjs, SiTailwindcss, SiNodedotjs, SiMongodb, SiLaravel, SiMysql, SiHtml5, SiCss3, SiJavascript, SiAdobephotoshop, SiAdobeillustrator, SiAdobepremierepro, SiAdobeaftereffects, SiFacebook, SiGoogleanalytics } from 'react-icons/si';
+import { SiReact, SiNextdotjs, SiTailwindcss, SiNodedotjs, SiMongodb, SiLaravel, SiMysql, SiHtml5, SiCss3, SiJavascript, SiAdobephotoshop, SiAdobeillustrator, SiAdobepremierepro, SiAdobeaftereffects, SiFacebook, SiGoogleanalytics, SiPhp, SiBootstrap } from 'react-icons/si';
 import { ABOUT_STATS, PERSONAL_INFO } from '../../utils/constants';
 import FadeIn from '../animations/FadeIn';
 import RadialGradientBackground from '../backgrounds/RadialGradientBackground';
@@ -15,8 +15,17 @@ const About = () => {
         {name: 'React JS', icon: SiReact, color: '#06B6D4'},
         {name: 'Laravel', icon: SiLaravel, color: '#7c3aed'},
         {name: 'Tailwind CSS', icon: SiTailwindcss, color: '#5e05f7ff'},
+        {name: 'Bootstrap', icon: SiBootstrap, color: '#5e05f7ff'},
+        {name: 'PHP', icon: SiPhp, color: '#61DAFB'},
+        {name: 'MySQL', icon: SiMysql, color: '#61DAFB'},
+        {name: 'Photoshop', icon: SiAdobephotoshop, color: '#000000'},
+        {name: 'Illustrator', icon: SiAdobeillustrator, color: '#3178C6'},
+        {name: 'Premiere Pro', icon: SiAdobepremierepro, color: '#06B6D4'},
+        {name: 'After Effects', icon: SiAdobeaftereffects, color: '#7c3aed'},
+        {name: 'Facebook', icon: SiFacebook, color: '#5e05f7ff'},
     ];
     const skills2 = [
+        {name: 'PHP', icon: SiPhp, color: '#61DAFB'},
         {name: 'MySQL', icon: SiMysql, color: '#61DAFB'},
         {name: 'Photoshop', icon: SiAdobephotoshop, color: '#000000'},
         {name: 'Illustrator', icon: SiAdobeillustrator, color: '#3178C6'},
@@ -151,6 +160,38 @@ const About = () => {
                     </div>
                 </FadeIn>
             </div>
+
+            {/* skills grid  */}
+            <FadeIn delay={500}>
+                <div className="flex flex-col items-center gap-8">
+                    <div className="text-center">
+                        <h3 className="text-2xl font-normal text-white mb-2">
+                            Tech Stack & Expertise
+                        </h3>
+                        <p className="text-sm text-white/60">
+                            Technologies I work with to build amazing products.
+                        </p>
+                    </div>
+
+                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 w-full max-w-4xl">
+                        {skills.map((skill, index) => (
+                            <div 
+                                key={index}
+                                className="group relative bg-white/5 hover:bg-white/10 border border-white/10 hover:border-primary/50 rounded-2xl p-6 flex flex-col items-center justify-center gap-3 transition-all duration-300 hover:scale-105 cursor-pointer"
+                            >
+                                <skill.icon className='text-3xl text-primary' />
+                                <div className="text-sm text-white/80 font-medium text-center">
+                                    {skill.name}
+                                </div>
+
+                                {/* Hover Glow Effect */}
+                                <div className="absolute inset-0 bg-linear-to-br from-primary/0 to-primary/0 group-hover:to-primary/10 rounded-2xl transition-all duration-300"></div>
+                            </div>
+                        ))}
+                    </div>
+
+                </div>
+            </FadeIn>
         </div>
     </section>
   )
