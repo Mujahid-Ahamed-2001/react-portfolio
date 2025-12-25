@@ -81,6 +81,75 @@ const About = () => {
                         </button>
                     </FadeIn>
                 </div>
+
+                {/* right column - info grid  */}
+                <FadeIn delay={300}>
+                    <div className="grid grid-cols-2 gap-4">
+                        <div className="col-span-2 relative group">
+                            <div className="absolute insert-0 bg-linear-to-br from-primary/10 to-primary/5 rounded-2xl blur-xl opacity-50 group-hover:opacity-75 transition-opacity duration-300"></div>
+                            <div className="relative bg-white/5 border border-white/10 rounded-2xl p-6 hover:border-primary/30 transition-all duration-300">
+                                <div className="flex items-start gap-4">
+                                    <div className="p-3 bg-primary/10 rounded-xl">
+                                        <Code2 className='w-6 h-6 text-primary' />
+                                    </div>
+                                    <div className="flex-1">
+                                        <h3 className="text-lg font-semibold text-white mb-2">Expertise</h3>
+                                        <p className="text-sm text-white/70 leading-relaxed">
+                                            Specialized in building scalable web applications with modern technologies and best practices
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="relative group">
+                            <div className="absolute insert-0 bg-linear-to-br from-primary/10 to-primary/5 rounded-2xl blur-xl opacity-50 group-hover:opacity-75 trantion-opacity duration-300"></div>
+                            <div className="relative bg-white/5 border border-white/10 rounded-2xl p-6 hover:border-primary/30 transiton-all duration-300 h-full">
+                                <div className="p-3 bg-primary/10 rounded-xl w-fit mb-4">
+                                    <Sparkles className="w-5 h-5 text-primary" />
+                                </div>
+                                <h3 className="text-base font-semibold text-white mb-2">Clean Code</h3>
+                                <p className="text-sm text-white/70 leading-relaxed">
+                                    Writing maintanable, well-documented code that scales.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="f">
+                            <div className="f"></div>
+                            <div className="f">
+                                <div className="f">
+                                    <Download className="f" />
+                                </div>
+                                <h3 className="f">Performance</h3>
+                                <p className="f">
+                                    Optimizing for speed and efficiency in every project.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="">
+                            <div className="f"></div>
+                            <div className="f">
+                                <div className="f">
+                                    <div>
+                                        <div className="f">100%</div>
+                                        <div className="f">Employer Satisfaction</div>
+                                    </div>
+                                    <div>
+                                        <div className="f">3+ Years</div>
+                                        <div className="f">Hands-On Industry Experience</div>
+                                    </div>
+                                    <div>
+                                        <div className="f">Results-Driven Approach</div>
+                                        <div className="f">Proven impact in Digital Marketing.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </FadeIn>
             </div>
         </div>
     </section>
