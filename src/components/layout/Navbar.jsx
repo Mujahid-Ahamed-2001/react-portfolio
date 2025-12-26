@@ -66,7 +66,7 @@ const Navbar = () => {
                 <div className='hidden md:flex items-center gap-2'>
                     <button 
                         onClick={() => handleNavClick('contact')}
-                        className="px-7 bg-white text-[#212121] font-medium text-base rounded-[17px] border border-white hover:bg-white/90 transition-all duration-300 cursor-pointer"
+                        className="px-7 py-3 bg-white text-[#212121] font-medium text-base rounded-[17px] border border-white hover:bg-white/90 transition-all duration-300 cursor-pointer"
                     >
                         Hire Me
                     </button>

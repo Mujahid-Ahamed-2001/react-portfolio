@@ -12,7 +12,8 @@ export const PERSONAL_INFO = {
     'I specialize in developing responsive frontend interfaces with React and robust backend systems using PHP and Laravel.',
     'I am experienced in integrating RESTful APIs, handling authentication, and managing relational databases like MySQL.',
     'I continuously learn and adapt to new technologies to stay aligned with current industry standards.'
-  ]
+  ],
+  resume: "My CV 2025.pdf"
 };
 
 export const SOCIAL_LINKS = {
