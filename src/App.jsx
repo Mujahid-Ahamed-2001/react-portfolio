@@ -15,7 +15,7 @@ const App = ( )=>{
         <Skills />
         <Projects />
       </main>
-    </div>
+    </div> 
   )
 } 
 
