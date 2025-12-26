@@ -5,28 +5,28 @@ export const skills = [
     name: 'HTML5',
     icon: 'Code2',
     level: 'Expert',
-    experience: '3+ years'
+    experience: '4+ years'
   },
   {
     id: 2,
     name: 'CSS3',
     icon: 'Code2',
     level: 'Expert',
-    experience: '3+ years'
+    experience: '4+ years'
   },
   {
     id: 3,
     name: 'JavaScript (ES6+)',
     icon: 'Code2',
-    level: 'Advanced',
-    experience: '3+ years'
+    level: 'Expert',
+    experience: '4+ years'
   },
   {
     id: 4,
     name: 'AJAX',
     icon: 'Code2',
-    level: 'Advanced',
-    experience: '3+ years'
+    level: 'Expert',
+    experience: '4+ years'
   },
 
   // Frontend Frameworks & Styling
@@ -63,7 +63,7 @@ export const skills = [
     name: 'Bootstrap',
     icon: 'Code2',
     level: 'Expert',
-    experience: '3+ years'
+    experience: '4+ years'
   },
 
   // Tools & Workflow
@@ -88,7 +88,7 @@ export const skills = [
     name: 'PHP',
     icon: 'Code2',
     level: 'Expert',
-    experience: '3+ years'
+    experience: '4+ years'
   },
   {
     id: 13,
@@ -118,6 +118,76 @@ export const skills = [
     name: 'MySQL',
     icon: 'Code2',
     level: 'Advanced',
-    experience: '3+ years'
-  }
+    experience: '4+ years'
+  },
+  {
+    id: 17,
+    name: 'REST APIS',
+    icon: 'Code2',
+    level: 'Intermediate',
+    experience: '2+ year'
+  },
+  {
+    id: 18,
+    name: 'Git & GitHub',
+    icon: 'Code2',
+    level: 'Advanced',
+    experience: '4+ year'
+  },
+  {
+    id: 19,
+    name: 'Responsive Design',
+    icon: 'Code2',
+    level: 'Expert',
+    experience: '4+ year'
+  },
+  {
+    id: 20,
+    name: 'Redux',
+    icon: 'Code2',
+    level: 'Intermediate',
+    experience: '1+ year'
+  },
+  {
+    id: 21,
+    name: 'SEO',
+    icon: 'Code2',
+    level: 'Expert',
+    experience: '4+ year'
+  },
+  {
+    id: 22,
+    name: 'Google Analytics',
+    icon: 'Code2',
+    level: 'Expert',
+    experience: '4+ year'
+  },
+  {
+    id: 23,
+    name: 'Social Media Marketing',
+    icon: 'Code2',
+    level: 'Expert',
+    experience: '4+ year'
+  },
+  {
+    id: 24,
+    name: 'Social Media Campaigning',
+    icon: 'Code2',
+    level: 'Expert',
+    experience: '4+ year'
+  },
+  {
+    id: 25,
+    name: 'Content & Email Marketing',
+    icon: 'Code2',
+    level: 'Expert',
+    experience: '4+ year'
+  },
+  {
+    id: 26,
+    name: 'Graphic Designing & Video Editing',
+    icon: 'Code2',
+    level: 'Expert',
+    experience: '4+ year'
+  },
 ];

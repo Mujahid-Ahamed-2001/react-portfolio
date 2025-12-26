@@ -121,7 +121,7 @@ const Hero = () => {
       </div>
       <button
         onClick={() => scrollToSection('about')}
-        className='cursor-pointer absolute bottom-8 left-1/2 translate-x-1/2 animate-bounce '
+        className='cursor-pointer absolute bottom-8 left-1/2 translate-x-1/2 animate-bounce z-[999]'
       >
         <ChevronDown className="w-8 h-8 text-primary cursor-pointer" />
       </button>
