@@ -17,12 +17,11 @@ export const PERSONAL_INFO = {
 };
 
 export const SOCIAL_LINKS = {
-    github: "https://github.com/Mujahid-Ahamed-2001",
-    linkedin: 'https://www.linkedin.com/in/moosalebbe-mujahid-ahamed/',
-    facebook: 'https://facebook.com/mujahid.ahamed.159055/',
-    mail: 'mujahidmjhd2001@gmail.com',
+    github: "github.com/Mujahid-Ahamed-2001",
+    linkedin: 'linkedin.com/in/moosalebbe-mujahid-ahamed/',
+    facebook: 'facebook.com/mujahid.ahamed.159055/',
     whatsapp: '+94-72-8966961',
-    botim: '+94-72-8966961'
+    Botim: '+94-72-8966961'
 };
 export const STATS =[
     {label: 'Years of Experience', value: '4+'},

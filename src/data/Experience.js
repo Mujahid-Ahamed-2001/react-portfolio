@@ -164,7 +164,7 @@ export const experiences =[
             'Implemented secure authentication, authorization, and role-based access control',
             'Applied OWASP security best practices to protect applications from common vulnerabilities',
             'Developed reusable and modular code using MVC, OOP, and service-based architecture',
-            'Handled end-to-end SDLC including requirement gathering, development, testing, deployment, and maintenance',
+            'Handled end-to-end SDLC including requirement gathering, development, testing, and deployment',
             'Deployed applications on shared and cloud hosting environments',
             'Provided post-deployment support, bug fixes, and performance improvements',
             'Maintained clear communication with clients and delivered projects within deadlines',
