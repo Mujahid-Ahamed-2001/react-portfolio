@@ -19,10 +19,13 @@ export const PERSONAL_INFO = {
 export const SOCIAL_LINKS = {
     github: "https://github.com/Mujahid-Ahamed-2001",
     linkedin: 'https://www.linkedin.com/in/moosalebbe-mujahid-ahamed/',
-    facebook: 'https://facebook.com/mujahid.ahamed.159055/'
+    facebook: 'https://facebook.com/mujahid.ahamed.159055/',
+    mail: 'mujahidmjhd2001@gmail.com',
+    whatsapp: '+94-72-8966961',
+    botim: '+94-72-8966961'
 };
 export const STATS =[
-    {label: 'Years of Experience', value: '3+'},
+    {label: 'Years of Experience', value: '4+'},
     {label: 'Projects Completed', value: '15+'},
     {label: 'Technologies', value: '8+'},
     {label: 'Employer Satisfaction', value: '98%'}
