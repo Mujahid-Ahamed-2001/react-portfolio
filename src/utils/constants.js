@@ -17,10 +17,10 @@ export const PERSONAL_INFO = {
 };
 
 export const SOCIAL_LINKS = {
-    github: "github.com/Mujahid-Ahamed-2001",
-    linkedin: 'linkedin.com/in/moosalebbe-mujahid-ahamed/',
-    facebook: 'facebook.com/mujahid.ahamed.159055/',
-    whatsapp: '+94-72-8966961',
+    github: "https://github.com/Mujahid-Ahamed-2001",
+    linkedin: 'https://linkedin.com/in/moosalebbe-mujahid-ahamed/',
+    facebook: 'https://facebook.com/mujahid.ahamed.159055/',
+    whatsapp: 'https://wa.link/r2lpnu',
     Botim: '+94-72-8966961'
 };
 export const STATS =[

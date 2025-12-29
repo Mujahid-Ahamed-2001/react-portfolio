@@ -205,7 +205,7 @@ const Contact = () => {
                                             className='p-4 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 hover:border-primary/30 hover:scale-110 transition-all duration-300 group'
                                         >
                                             <span className="w-6 h-6 text-white/60 group-hover:text-primary transition-colors">
-                                                {platform}
+                                                {platform} - {urls}
                                             </span>
                                         </a>);
                                 })}

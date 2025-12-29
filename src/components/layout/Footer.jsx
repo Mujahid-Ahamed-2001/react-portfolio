@@ -19,7 +19,7 @@ const Footer = () => {
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 gap-12 mb-12">
+        <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-1 gap-12 mb-12">
           <FadeIn delay={0} >
             <div>
               <h3 className="text-3xl font-bold bg-linear-to-r from-primary/80 via-primary to-primary/80 bg-clip-text text-transparent mb-4">
@@ -66,6 +66,46 @@ const Footer = () => {
                 ))}
               </ul>
             </div>
+          </FadeIn>
+          <FadeIn delay={200} >
+                <div>
+                  <h4 className="text-white font-semibold mb-6 text-lg">
+                    Connect With Me
+                  </h4>
+                  <p className="text-white/60 text-sm mb-6 leading-relaxed">
+                    Let's connect and create something amazing towards the future.
+                  </p>
+                  <div className="flex flex-wrap gap-3">
+                    {Object.entries(SOCIAL_LINKS).map(([platform, urls]) =>{
+                        const Icon = socialIcon[platform];
+                        return Icon ? (
+                            <a 
+                                key={platform}
+                                href={urls}
+                                target='_blank'
+                                rel='noopener noreferrer'
+                                className='group relative p-4 bg-white/5 rounded-xl border border-white/10 hover:bg-primary/30 hover:border-primary/50 hover:scale-110 transition-all duration-300'
+                            >
+                                <Icon className ="w-5 h-5 text-white/60 group-hover:text-primary transition-colors duration-300" /> 
+                                <div className='absolute inset-0 bg-linear-to-br from-primary/0 to-primary/0 group-hover:from-primary/10 group-hover:to-primary/5 rounded-xl transitio-all duration-300 pointer-events-none' />
+                                
+                            </a>
+                        ) : (
+                            <a 
+                                key={platform}
+                                href={urls}
+                                target='_blank'
+                                rel='noopener noreferrer'
+                                className='group relative p-4 bg-white/5 rounded-xl border border-white/10 hover:bg-primary/30 hover:border-primary/50 hover:scale-110 transition-all duration-300'
+                            >
+                                <span className="w-5 h-5 text-white/60 group-hover:text-primary transition-colors duration-300">
+                                    {platform} - {urls}
+                                </span>
+                                <div className='absolute inset-0 bg-linear-to-br from-primary/0 to-primary/0 group-hover:from-primary/10 group-hover:to-primary/5 rounded-xl transitio-all duration-300 pointer-events-none' />
+                            </a>);
+                    })}
+                  </div>
+                </div>
           </FadeIn>
         </div>
         <FadeIn delay={300} >
