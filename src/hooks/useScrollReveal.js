@@ -36,4 +36,4 @@ export const useScrollReveal = (options = {}) =>{
 
 
     return { ref, isVisible };
-};
+}; 

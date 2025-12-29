@@ -13,16 +13,18 @@ export const PERSONAL_INFO = {
     'I am experienced in integrating RESTful APIs, handling authentication, and managing relational databases like MySQL.',
     'I continuously learn and adapt to new technologies to stay aligned with current industry standards.'
   ],
-  resume: "My CV 2025.pdf"
+  resume: "resume.pdf"
 };
 
 export const SOCIAL_LINKS = {
     github: "https://github.com/Mujahid-Ahamed-2001",
-    linkedin: 'https://www.linkedin.com/in/moosalebbe-mujahid-ahamed/',
-    facebook: 'https://facebook.com/mujahid.ahamed.159055/'
+    linkedin: 'https://linkedin.com/in/moosalebbe-mujahid-ahamed/',
+    facebook: 'https://facebook.com/mujahid.ahamed.159055/',
+    whatsapp: 'https://wa.link/r2lpnu',
+    Botim: '+94-72-8966961'
 };
 export const STATS =[
-    {label: 'Years of Experience', value: '3+'},
+    {label: 'Years of Experience', value: '4+'},
     {label: 'Projects Completed', value: '15+'},
     {label: 'Technologies', value: '8+'},
     {label: 'Employer Satisfaction', value: '98%'}
@@ -35,8 +37,8 @@ export const ABOUT_STATS =[
 export const NAV_LINKS =[
     {id:'about', label: 'About'},
     {id:'skills', label: 'Skills'},
-    {id:'experience', label: 'Experience'},
     {id:'projects', label: 'Projects'},
-    {id:'services', label: 'Services'},
+    {id:'experience', label: 'Experience'},
+    // {id:'services', label: 'Services'},
     {id:'contact', label: 'Contact Me'},
 ];
