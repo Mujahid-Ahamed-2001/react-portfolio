@@ -38,7 +38,7 @@ const Experience = () => {
                 </div>
             </FadeIn>
 
-            <div className="grid grid-cols-2 md:grid-cols-1 lg:grid-cols-1 gap-1 mb-6">
+            <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-1 mb-6">
                 {experiences.slice(0, 1).map((service, index) => {
                     const IconComponent = service.image || "/images/experience/favicon.png";
 
